@@ -1,0 +1,2 @@
+redirect - redirect for pd games
+main - chasmani data
