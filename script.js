@@ -1,4 +1,3 @@
-
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 var warwickResponseId = urlParams.get('Warwick_ResponseID');
@@ -13,9 +12,9 @@ var link = document.createTextNode("Click here to begin the experiment");
 a.appendChild(link); 
                   
 // Set the title.
-a.title = "This is Link"; 
+a.title = "This is the link"; 
                   
-var newLink = "https://pdrep.herokuapp.com/room/pd_replay/?Warwick_ResponseID=" + warwickResponseId
+var newLink = "https://iteratedpds.herokuapp.com/room/pd_replay/?participant_label=" + warwickResponseId
 
 // Set the href property.
 a.href = newLink; 
